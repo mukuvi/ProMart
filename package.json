@@ -1,0 +1,20 @@
+{
+  "name": "promart",
+  "version": "1.0.0",
+  "description": "shop like a pro",
+  "homepage": "https://github.com/mukuvi/ProMart#readme",
+  "bugs": {
+    "url": "https://github.com/mukuvi/ProMart/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mukuvi/ProMart.git"
+  },
+  "license": "ISC",
+  "author": "James Mukuvi Ngandu",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
