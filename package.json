@@ -15,7 +15,9 @@
   "type": "module",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "nodemon server/server.js",
+    "client":"npm run dev --prefix client",
+    "dev":"concurrently \"npm run client\" \"npm run server\""
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.14",
